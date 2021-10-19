@@ -1,0 +1,157 @@
+/* The main page header with the nav bar */ 
+#headermain {
+    padding: 2% 0;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top:0;
+    background-color: #ececec;
+}
+.nav-bar {
+    position: relative;
+    min-height: 50px;
+  }
+
+  
+/* The menu on the left with logo and a page subtitle */ 
+  .navbar-left {
+      padding-left: 2%;
+      line-height: 0.7;
+  }
+
+  .logo-text {
+    font-size: 23px;
+    font-style: italic;
+    letter-spacing: -2.5px;
+}
+
+
+/* The menu on the right with social link - Facebook / Insta / Twitter */ 
+  .navbar-right {
+    float: right;
+    margin-right: 2%;
+    -moz-box-align: right; 
+  }
+  #social {
+     margin: 0; padding: 0;
+    border-bottom: 2px solid #111; 
+    text-align: center;
+    -moz-box-align: center;
+  }
+  .nav-link {
+    color: #111;  
+    font-size: 10px;
+    display: inline-block; 
+  }
+  
+  .subtitle {
+      color: #555;
+      font-size: 7.5px;
+  }
+
+  
+  /* Main page content */
+  .pageContent {
+      position: relative;
+      text-align: center;
+      top: 104px;
+      margin: auto 25%;
+  }
+ 
+  #Contentmain {
+    margin-left: 5px;
+    text-align: center;
+    vertical-align: baseline;
+
+  }
+  /* title main page */
+  .title-txt{
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 2.5;
+      color: #777;
+  }
+
+  .row {
+      margin: 0;
+  }
+  /* The column of images */ 
+  .col-md-3{
+      width: 30%;
+      display: grid;
+      flex-flow: column;
+      list-style-type: none;
+      justify-content: space-around;
+      text-align: center;
+      margin: 1%;
+  }
+  
+  /*  subscriber form by mail with the icon → button */
+  input {
+    border: none;
+    font-size: 9px;
+    line-height: 2.9;
+    text-align: left;
+    width: 280px;
+}
+.fa.fa-arrow-right:hover, .fa-arrow-right:hover, button[type=submit]:hover{
+ font-size: 15px;
+ text-decoration: none;
+ margin: 0; padding: 0;
+}
+button, button:hover{
+    border: none;
+    display: inline;
+    background-color: white;
+    text-decoration: none;
+    color: #555;
+}
+.formbloc {
+    height: 130px;
+    margin-top: 5%;
+    margin-bottom: 25px;
+}
+form {
+  padding: 10px 0 7px 0;
+  display: inline;
+  border-bottom: 3px solid #3a3a3a; 
+  text-align: left;
+  width: 300px;
+}
+
+ 
+  
+  /* The main page footer */
+  footer {
+    background-color: #585858;
+    font-size: 7px;
+    color: #ddd;
+    padding: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+  }
+  #dev {
+      color: #fff;
+      float: right;
+  }
+  .dev, .dev:hover, .dev:active, .dev:link{
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: larger;
+      letter-spacing: 1px;
+      line-height: 2;
+  }
+
+
+
+/*  main page responsive block */ 
+ @media only screen and (max-width: 620px) {
+  /*  For mobile phones */ 
+  .pageContent {
+   width: 100%;
+   height: auto;
+  }
+}
